@@ -1,0 +1,14 @@
+Docker Commands:
+
+docker build -t movieimage -f D:\Phase4\Day4\Assignment3\Assignment3\Dockerfile .
+
+docker images
+
+docker run -d -p 8000:80 --name moviecontainer movieimage
+
+
+Browse the port:
+
+http://localhost:8000/api/Movie
+
+
